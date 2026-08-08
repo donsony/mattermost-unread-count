@@ -13,6 +13,7 @@ Created by **Don Sony** and **infuse.ae**.
 - **Mute Awareness**: Displays a subdued, semi-transparent gray badge for muted channels with unread activity.
 - **Dynamic Updates**: Automatically updates counts instantly on new messages or when messages are marked as read, using the Redux store subscription.
 - **Zero Server Overhead**: The plugin runs entirely on the client side using the standard Mattermost webapp SDK, making it compatible with any server setup.
+- **Desktop App Icon Badge Integration**: Automatically synchronizes the total unread message count (public/private channels, DMs, GMs) with the document window title. The Electron desktop app wrapper reads this title count and updates the native app icon badge (dock/taskbar) instantly.
 
 ---
 
