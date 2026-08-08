@@ -1,0 +1,14 @@
+{
+  "name": "com.github.donso.unread-count-plugin-root",
+  "version": "0.1.0",
+  "author": "Don Sony & infuse.ae",
+  "private": true,
+  "scripts": {
+    "bootstrap": "npm install && cd webapp && npm install",
+    "build": "npm run build --prefix webapp && node pack.js",
+    "pack": "node pack.js"
+  },
+  "devDependencies": {
+    "tar": "^6.2.0"
+  }
+}

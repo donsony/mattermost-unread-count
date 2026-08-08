@@ -1,0 +1,11 @@
+{
+  "id": "com.github.donso.unread-count-plugin",
+  "name": "Unread Messages Counter",
+  "description": "Displays the number of unread messages next to channels in the sidebar.",
+  "version": "0.1.0",
+  "min_server_version": "5.12.0",
+  "homepage_url": "https://github.com/donsony/mattermost-unread-count",
+  "webapp": {
+    "bundle_path": "webapp/dist/main.js"
+  }
+}
